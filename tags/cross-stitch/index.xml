@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cross Stitch on Simon H.W.</title>
-    <link>https://hathoutwillard.github.io/tags/cross-stitch/</link>
+    <link>http://localhost:1313/tags/cross-stitch/</link>
     <description>Recent content in Cross Stitch on Simon H.W.</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <managingEditor>hathoutwillard@domain.com (Simon Hathout Willard)</managingEditor>
-    <webMaster>hathoutwillard@domain.com (Simon Hathout Willard)</webMaster>
+    <managingEditor>hathoutwillard@gmail.com (Simon Hathout Willard)</managingEditor>
+    <webMaster>hathoutwillard@gmail.com (Simon Hathout Willard)</webMaster>
     <lastBuildDate>Sun, 08 Sep 2024 14:14:37 -0500</lastBuildDate>
-    <atom:link href="https://hathoutwillard.github.io/tags/cross-stitch/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cross-stitch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Making Picture Frames From Scratch</title>
-      <link>https://hathoutwillard.github.io/posts/diyframe/</link>
-      <pubDate>Sun, 08 Sep 2024 14:14:37 -0500</pubDate><author>hathoutwillard@domain.com (Simon Hathout Willard)</author>
-      <guid>https://hathoutwillard.github.io/posts/diyframe/</guid>
-      <description>To learn more about the woodworking process, I made some picture frames to hang my cross-stitching pieces in. I primarily used elm for this project, as I was able to find some salvageable boards in the scrap bin, and also get some from a previous employer.&#xA;Although picture frames seem simple, there are still a number of techniques one can use to produce one. And, because the piece is intended to be decorative, any small mistakes will be obvious.</description>
+      <link>http://localhost:1313/posts/diyframe/</link>
+      <pubDate>Sun, 08 Sep 2024 14:14:37 -0500</pubDate><author>hathoutwillard@gmail.com (Simon Hathout Willard)</author>
+      <guid>http://localhost:1313/posts/diyframe/</guid>
+      <description>&lt;p&gt;To learn more about the woodworking process, I made some picture frames to hang my cross-stitching pieces in. I primarily used elm for this project, as I was able to find some salvageable boards in the scrap bin, and also get some from a previous employer.&lt;/p&gt;&#xA;&lt;p&gt;Although picture frames seem simple, there are still a number of techniques one can use to produce one. And, because the piece is intended to be decorative, any small mistakes will be obvious. There are four key steps that I identified to making a frame:&lt;/p&gt;</description>
     </item>
     <item>
       <title>DIY Cross Stitch Stand</title>
-      <link>https://hathoutwillard.github.io/posts/xstitchstand/</link>
-      <pubDate>Thu, 25 Jul 2024 00:37:38 -0500</pubDate><author>hathoutwillard@domain.com (Simon Hathout Willard)</author>
-      <guid>https://hathoutwillard.github.io/posts/xstitchstand/</guid>
-      <description>For the past few years, I&amp;rsquo;ve been cross stitching as a way to relax. I like how I can follow a pattern someone else created, listen to some music, and eventually end up with a beautiful piece of art to display. Below are a few of the pieces that I’ve made. Patterns are from DMC, as well as this book.&#xA;However, I’ve found my hand gets tired after holding the hoop for a long period of time.</description>
+      <link>http://localhost:1313/posts/xstitchstand/</link>
+      <pubDate>Thu, 25 Jul 2024 00:37:38 -0500</pubDate><author>hathoutwillard@gmail.com (Simon Hathout Willard)</author>
+      <guid>http://localhost:1313/posts/xstitchstand/</guid>
+      <description>&lt;p&gt;For the past few years, I&amp;rsquo;ve been cross stitching as a way to relax. I like how I can follow a pattern someone else created, listen to some music, and eventually end up with a beautiful piece of art to display. Below are a few of the pieces that I’ve made. Patterns are from &lt;a href=&#34;https://www.dmc.com/CA/en/patterns/free-patterns-by-craft/cross-stitch&#34;&gt;DMC&lt;/a&gt;, as well as &lt;a href=&#34;https://www.indigo.ca/en-ca/100-mini-cross-stitch-designs/9781784946272.html&#34;&gt;this book&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/MyXstitch.jpg&#34; alt=&#34;Some of the Cross Stitching I&amp;rsquo;ve done&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;However, I’ve found my hand gets tired after holding the hoop for a long period of time. Given that I’ve recently gotten access to a bunch of woodworking tools at Northforge, I decided to make a cross stitch stand from scratch, rather than buy one online.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

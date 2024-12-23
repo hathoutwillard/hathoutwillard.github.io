@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meta on Simon H.W.</title>
-    <link>https://hathoutwillard.github.io/tags/meta/</link>
+    <link>http://localhost:1313/tags/meta/</link>
     <description>Recent content in Meta on Simon H.W.</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <managingEditor>hathoutwillard@domain.com (Simon Hathout Willard)</managingEditor>
-    <webMaster>hathoutwillard@domain.com (Simon Hathout Willard)</webMaster>
+    <managingEditor>hathoutwillard@gmail.com (Simon Hathout Willard)</managingEditor>
+    <webMaster>hathoutwillard@gmail.com (Simon Hathout Willard)</webMaster>
     <lastBuildDate>Sat, 13 Jul 2024 22:06:38 -0500</lastBuildDate>
-    <atom:link href="https://hathoutwillard.github.io/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/meta/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Very Own Blog</title>
-      <link>https://hathoutwillard.github.io/posts/my-very-own-blog/</link>
-      <pubDate>Sat, 13 Jul 2024 22:06:38 -0500</pubDate><author>hathoutwillard@domain.com (Simon Hathout Willard)</author>
-      <guid>https://hathoutwillard.github.io/posts/my-very-own-blog/</guid>
-      <description>Hello!&#xA;I&amp;rsquo;ve been meaning to set up a blog for a while, to give me a nice, and convenient, way to chronicle all my different experiences. I originally tried making my own site from scratch using NeoCities to host it, as I’m a big fan of the old web aesthetics. Unfortunately, I quickly hit a wall with my HTML/CSS abilities, and although I learned a lot building it, getting my site to a presentable level would have taken dozens of hours that I simply don’t have.</description>
+      <link>http://localhost:1313/posts/my-very-own-blog/</link>
+      <pubDate>Sat, 13 Jul 2024 22:06:38 -0500</pubDate><author>hathoutwillard@gmail.com (Simon Hathout Willard)</author>
+      <guid>http://localhost:1313/posts/my-very-own-blog/</guid>
+      <description>&lt;p&gt;Hello!&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been meaning to set up a blog for a while, to give me a nice, and convenient, way to chronicle all my different experiences. I originally tried making my own site from scratch using NeoCities to host it, as I’m a big fan of the old web aesthetics. Unfortunately, I quickly hit a wall with my HTML/CSS abilities, and although I learned a lot building it, getting my site to a presentable level would have taken dozens of hours that I simply don’t have.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

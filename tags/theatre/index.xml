@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Theatre on Simon H.W.</title>
-    <link>https://hathoutwillard.github.io/tags/theatre/</link>
+    <link>http://localhost:1313/tags/theatre/</link>
     <description>Recent content in Theatre on Simon H.W.</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <managingEditor>hathoutwillard@domain.com (Simon Hathout Willard)</managingEditor>
-    <webMaster>hathoutwillard@domain.com (Simon Hathout Willard)</webMaster>
+    <managingEditor>hathoutwillard@gmail.com (Simon Hathout Willard)</managingEditor>
+    <webMaster>hathoutwillard@gmail.com (Simon Hathout Willard)</webMaster>
     <lastBuildDate>Thu, 18 Jul 2024 00:25:02 -0500</lastBuildDate>
-    <atom:link href="https://hathoutwillard.github.io/tags/theatre/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/theatre/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1000 is a large number  </title>
-      <link>https://hathoutwillard.github.io/posts/1000pi/</link>
-      <pubDate>Thu, 18 Jul 2024 00:25:02 -0500</pubDate><author>hathoutwillard@domain.com (Simon Hathout Willard)</author>
-      <guid>https://hathoutwillard.github.io/posts/1000pi/</guid>
-      <description>Today, thorough the Winnipeg Fringe Festival’s “NextGen Fringers” program, I had the opportunity to see two shows. The first one, and the subject of this post, was 1000 pieces of π. This interpretive dance piece includes only 10 moves, corresponding to each digit from 0-9. For each digit, the corresponding move is preformed.&#xA;My first reaction upon hearing this premise was “there’s no way they can make this interesting”. However, by adding in props, and keeping a rotation of dancers entering and exiting the scene, they managed to keep the 50-minute runtime interesting.</description>
+      <link>http://localhost:1313/posts/1000pi/</link>
+      <pubDate>Thu, 18 Jul 2024 00:25:02 -0500</pubDate><author>hathoutwillard@gmail.com (Simon Hathout Willard)</author>
+      <guid>http://localhost:1313/posts/1000pi/</guid>
+      <description>&lt;p&gt;Today, thorough the &lt;a href=&#34;https://royalmtc.ca/Education-Outreach/Youth-Programming.aspx&#34;&gt;Winnipeg Fringe Festival’s “NextGen Fringers”&lt;/a&gt; program, I had the opportunity to see two shows. The first one, and the subject of this post, was &lt;a href=&#34;https://brokenrhythmsvictoria.com/1000-pieces-of-%CF%80-programme/&#34;&gt;1000 pieces of π&lt;/a&gt;. This interpretive dance piece includes only 10 moves, corresponding to each digit from 0-9. For each digit, the corresponding move is preformed.&lt;/p&gt;&#xA;&lt;p&gt;My first reaction upon hearing this premise was “there’s no way they can make this interesting”. However, by adding in props, and keeping a rotation of dancers entering and exiting the scene, they managed to keep the 50-minute runtime interesting. There was also someone in the rear corner writing down the digits in time with the dancers, who would occasionally have spoken word sections which broke up the dancing.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
