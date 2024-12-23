@@ -1,0 +1,496 @@
+
+
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+ 
+
+
+      <title>CPEN 221: Software Development - </title>
+
+  <meta name="description" content="One of my favourite courses this semester, and by far the one I spent the most time on, was my software development course, CPEN 221. This course builds upon prior knowledge of programming, and teaches students how to write large scale, practical code, which is testable, maintainable, and functional.
+Although this course is presented through the lens of Java, and students do become highly competent in that programming language, a focus is placed on concepts which are held in common by all modern programming languages, and examples from other relevant languages are used to develop a deeper understanding of course material.">
+  <meta name="author" content="Simon Hathout Willard"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Simon H.W.",
+    
+    "url": "http:\/\/localhost:1313\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/localhost:1313\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/posts\/cpen221\/",
+          "name": "CPE n 221 software development"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Simon Hathout Willard"
+  },
+  "headline": "CPEN 221: Software Development",
+  "description" : "One of my favourite courses this semester, and by far the one I spent the most time on, was my software development course, CPEN 221. This course builds upon prior knowledge of programming, and teaches students how to write large scale, practical code, which is testable, maintainable, and functional.\nAlthough this course is presented through the lens of Java, and students do become highly competent in that programming language, a focus is placed on concepts which are held in common by all modern programming languages, and examples from other relevant languages are used to develop a deeper understanding of course material.\n",
+  "inLanguage" : "en",
+  "wordCount":  767 ,
+  "datePublished" : "2024-12-22T13:37:47-08:00",
+  "dateModified" : "2024-12-22T13:37:47-08:00",
+  "image" : "http:\/\/localhost:1313\/img\/raccoon.png",
+  "keywords" : [ "STEM" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/posts\/cpen221\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/localhost:1313\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/localhost:1313\/img\/raccoon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+
+<meta property="og:title" content="CPEN 221: Software Development" />
+<meta property="og:description" content="One of my favourite courses this semester, and by far the one I spent the most time on, was my software development course, CPEN 221. This course builds upon prior knowledge of programming, and teaches students how to write large scale, practical code, which is testable, maintainable, and functional.
+Although this course is presented through the lens of Java, and students do become highly competent in that programming language, a focus is placed on concepts which are held in common by all modern programming languages, and examples from other relevant languages are used to develop a deeper understanding of course material.">
+<meta property="og:image" content="http://localhost:1313/img/raccoon.png" />
+<meta property="og:url" content="http://localhost:1313/posts/cpen221/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Simon H.W." />
+
+  <meta name="twitter:title" content="CPEN 221: Software Development" />
+  <meta name="twitter:description" content="One of my favourite courses this semester, and by far the one I spent the most time on, was my software development course, CPEN 221. This course builds upon prior knowledge of programming, and …">
+  <meta name="twitter:image" content="http://localhost:1313/img/raccoon.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link href='http://localhost:1313/img/raccoon.png' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.140.0">
+  <link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="Simon H.W."><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css" integrity="sha384-h/hnnw1Bi4nbpD6kE7nYfCXzovi622sY5WBxww8ARKwpdLj5kUWjRuyiXaD1U2JT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"><link rel="stylesheet" href="http://localhost:1313/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="http://localhost:1313/css/highlight.min.css" /><link rel="stylesheet" href="http://localhost:1313/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://localhost:1313/">Simon H.W.</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Main Page" href="/">Main Page</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">About</a>
+              <div class="navlinks-children">
+                
+                  <a href="/about/">About Me</a>
+                
+                  <a href="https://raw.githubusercontent.com/hathoutwillard/hathoutwillard.github.io/main/Resume.pdf">My Resume</a>
+                
+                  <a href="/courses/">Courses</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Blog" href="/posts/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Simon H.W." href="http://localhost:1313/">
+            <img class="avatar-img" src="http://localhost:1313/img/raccoon.png" alt="Simon H.W." />
+           
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="posts-heading">
+              
+                <h1>CPEN 221: Software Development</h1>
+              
+              
+                <hr class="small">
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>One of my favourite courses this semester, and by far the one I spent the most time on, was my software development course, CPEN 221. This course builds upon prior knowledge of programming, and teaches students how to write large scale, practical code, which is testable, maintainable, and functional.</p>
+<p>Although this course is presented through the lens of Java, and students do become highly competent in that programming language, a focus is placed on concepts which are held in common by all modern programming languages, and examples from other relevant languages are used to develop a deeper understanding of course material.</p>
+<p>This class puts its concepts into practice, by having students complete three “mini projects”. Each of these assignments is split into five tasks, which build upon each other, increasing in difficulty.</p>
+<p>Typically, students will only complete the first three tasks, due to the large difficulty of the later tasks. However, I pushed myself to complete all five tasks for each of the mini projects, as I found the challenge rewarding, and enjoyed researching approaches to these challenges outside of a structured class setting.</p>
+<p>In order, the mini projects were themed around Image Processing, Graphs, and Wikipedia. Course policy prevents me from posting source-code publicly, however, I am allowed to share my private GitHub repositories upon request.</p>
+<h1 id="mini-project-1-image-processing">Mini-Project 1: Image Processing</h1>
+<p>The first project was an introduction to writing high quality specifications for methods, as well as designing test suites to ensure both feature coverage as well as branch coverage. This project focused on manipulating images as grids of RGB colour pixels and performing operations on this set.  The first three tasks were relatively simple, converting images to a reduced colour palette, and comparing images on a pixel-by-pixel basis.</p>
+<p>The fourth task was implementing a green screen algorithm which would operate over only the largest connected span of green. This involved writing a recursive breadth first search algorithm, recognizing the challenges associated with explicit recursion under finite computing resources, and translating the algorithm to work with an explicit stack datastructure.</p>
+<p>The fifth task was writing code which would automatically align images containing text to be horizontal. This involved independently researching into Fourier domain representations of images – with which <a href="https://plus.maths.org/content/fourier-transforms-images">https://plus.maths.org/content/fourier-transforms-images</a> provided an invaluable resource, managing runtime of algorithms, and testing edge case behaviour of code.</p>
+<p><img src="/img/CPEN221/BeforeAndAfter.png" alt="Task 5 operating principle"></p>
+<p>The algorithm worked by computing the 2d fourier transform of the image, and finding the ray outwards from the center with the highest value. This corresponded to the normal of the text, from which the required angle with which to rotate could be determined.</p>
+<h1 id="mini-project-2-graphs">Mini Project 2: Graphs</h1>
+<p>For this project, we focused on inheritance, writing reusable code, and algorithms.</p>
+<p>The first portion of the assignment involved writing two implementations of a Graph interface, one mutable version based on the Adjacency List representation, and one immutable version based on the Adjacency Matrix representation.</p>
+<p>Following that, we wrote algorithms to determine shortest paths across graphs, the diameter of a graph, and the central point of a graph. For these algorithms, I pushed above and beyond, writing algorithms which were optimized for time complexity as well as being easily parallelizable using Java’s ParallelStream class. This allowed my algorithm to find the center of a graph with over 150,000 edges in only 4 minutes, compared to the 8 hours typical of other submissions.</p>
+<p><img src="/img/CPEN221/MP2time.png" alt="A graph of algorithm performance"></p>
+<h1 id="mini-project-3-wikipedia-server">Mini Project 3: Wikipedia Server</h1>
+<p>This project focused on writing a server which could act as an intermediary between a client and Wikipedia, tracking statistics, providing additional search functionality, and caching pages. This project introduced the concepts of parallelism, concurrency, and client server architecture.</p>
+<p>We wrote thread buffers for caching pages, reasoning about thread safety of data structures, and the balance between fine and course grained locking on code complexity and performance.</p>
+<p>I then wrote a server which would respond to network connections over a socket and assign individual threads to each socket, communicating over an encrypted connection using JSON formatted messages.</p>
+<p>Finally, I learned how to use ANTLR to write and parse grammars, to respond to structured queries, and fetch the expected results from Wikipedia. In writing this, I also learned more about how build systems such as Gradle operate, and how to manage dependencies on other libraries and frameworks.</p>
+<p><img src="/img/CPEN221/parseTree.png" alt="An example of my grammar parsing some text"></p>
+<h1 id="conclusion">Conclusion</h1>
+<p>Ultimately, CPEN 221 has been a fantastic opportunity for me to learn the fundamental coding skills that would allow me to work as part of a team developing programs for real world applications. By learning how to write modular and testable code, I’m able to not only write correct code, but also show to others its correctness, maintainability, and performance.</p>
+
+
+        
+          <div class="blog-tags">
+            
+              
+              <a href="http://localhost:1313/tags/stem/">STEM</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fcpen221%2f&amp;text=CPEN%20221%3a%20Software%20Development&amp;via=" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2fcpen221%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fcpen221%2f&amp;title=CPEN%20221%3a%20Software%20Development" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fcpen221%2f&amp;title=CPEN%20221%3a%20Software%20Development" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fcpen221%2f&amp;title=CPEN%20221%3a%20Software%20Development" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fposts%2fcpen221%2f&amp;description=CPEN%20221%3a%20Software%20Development" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+            
+          
+
+          
+                  <h4 class="see-also">See also</h4>
+                  <ul>
+                
+                
+                    <li><a href="/posts/diyframe/">Making Picture Frames From Scratch</a></li>
+                
+                    <li><a href="/posts/otherlaserstuff/">Other Laser Cutting Projects</a></li>
+                
+                    <li><a href="/posts/lasercutmap/">Making a Laser Cut Map using CorelDraw</a></li>
+                
+                    <li><a href="/posts/xstitchstand/">DIY Cross Stitch Stand</a></li>
+                
+                    <li><a href="/posts/my-very-own-blog/">My Very Own Blog</a></li>
+                
+              </ul>
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="http://localhost:1313/posts/diyframe/" data-toggle="tooltip" data-placement="top" title="Making Picture Frames From Scratch">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+      <footer>
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+		
+		  <a href="mailto:hathoutwillard@gmail.com" title="Email me">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://github.com/hathoutwillard" title="GitHub">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://linkedin.com/in/hathoutwillard" title="LinkedIn">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              Simon Hathout Willard
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2024
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://localhost:1313/">Simon H.W.</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.140.0</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha384-w5y/xIeYixWvfM+A1cEbmHPURnvyqmVg5eVENruEdDjcyRLUSNej7512JQGspFUr" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+<script src="http://localhost:1313/js/main.js"></script>
+<script src="http://localhost:1313/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="http://localhost:1313/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

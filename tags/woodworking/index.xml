@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Woodworking on Simon H.W.</title>
-    <link>http://localhost:1313/tags/woodworking/</link>
+    <link>https://hathoutwillard.github.io/tags/woodworking/</link>
     <description>Recent content in Woodworking on Simon H.W.</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>hathoutwillard@gmail.com (Simon Hathout Willard)</managingEditor>
     <webMaster>hathoutwillard@gmail.com (Simon Hathout Willard)</webMaster>
     <lastBuildDate>Sun, 08 Sep 2024 14:14:37 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/woodworking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hathoutwillard.github.io/tags/woodworking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Making Picture Frames From Scratch</title>
-      <link>http://localhost:1313/posts/diyframe/</link>
+      <link>https://hathoutwillard.github.io/posts/diyframe/</link>
       <pubDate>Sun, 08 Sep 2024 14:14:37 -0500</pubDate><author>hathoutwillard@gmail.com (Simon Hathout Willard)</author>
-      <guid>http://localhost:1313/posts/diyframe/</guid>
+      <guid>https://hathoutwillard.github.io/posts/diyframe/</guid>
       <description>&lt;p&gt;To learn more about the woodworking process, I made some picture frames to hang my cross-stitching pieces in. I primarily used elm for this project, as I was able to find some salvageable boards in the scrap bin, and also get some from a previous employer.&lt;/p&gt;&#xA;&lt;p&gt;Although picture frames seem simple, there are still a number of techniques one can use to produce one. And, because the piece is intended to be decorative, any small mistakes will be obvious. There are four key steps that I identified to making a frame:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Other Laser Cutting Projects</title>
-      <link>http://localhost:1313/posts/otherlaserstuff/</link>
+      <link>https://hathoutwillard.github.io/posts/otherlaserstuff/</link>
       <pubDate>Mon, 26 Aug 2024 18:28:32 -0500</pubDate><author>hathoutwillard@gmail.com (Simon Hathout Willard)</author>
-      <guid>http://localhost:1313/posts/otherlaserstuff/</guid>
+      <guid>https://hathoutwillard.github.io/posts/otherlaserstuff/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve made a number of laser cutting projects while at Northforge, and not all of them are large enough to fill a full article.&lt;/p&gt;&#xA;&lt;p&gt;My first project was to create a finger-jointed box to store some of my sewing and cross stitch supplied in. It was fun modelling the parts in Fusion, as I got to take advantage of the Mirror and Slice tools to speed up my workflow and ensure everything fit together correctly.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Making a Laser Cut Map using CorelDraw</title>
-      <link>http://localhost:1313/posts/lasercutmap/</link>
+      <link>https://hathoutwillard.github.io/posts/lasercutmap/</link>
       <pubDate>Fri, 23 Aug 2024 13:53:49 -0500</pubDate><author>hathoutwillard@gmail.com (Simon Hathout Willard)</author>
-      <guid>http://localhost:1313/posts/lasercutmap/</guid>
+      <guid>https://hathoutwillard.github.io/posts/lasercutmap/</guid>
       <description>&lt;p&gt;I have seen many laser cut maps for sale at farmers markets and gift stores, but given that I have access to a laser cutter though Northforge, I decided to make my own. The main guide I followed was &lt;a href=&#34;https://www.instructables.com/Laser-Cutting-Engraving-City-Maps/&#34;&gt;this one&lt;/a&gt; , but it uses Adobe Illustrator, which I do not have a licence for.&lt;/p&gt;&#xA;&lt;p&gt;I adapted the process to work using CorelDraw, which is the vector drawing software Northforge has, and also is the software set up to export to the laser cutting machines in the facility.&lt;/p&gt;</description>
     </item>
     <item>
       <title>DIY Cross Stitch Stand</title>
-      <link>http://localhost:1313/posts/xstitchstand/</link>
+      <link>https://hathoutwillard.github.io/posts/xstitchstand/</link>
       <pubDate>Thu, 25 Jul 2024 00:37:38 -0500</pubDate><author>hathoutwillard@gmail.com (Simon Hathout Willard)</author>
-      <guid>http://localhost:1313/posts/xstitchstand/</guid>
-      <description>&lt;p&gt;For the past few years, I&amp;rsquo;ve been cross stitching as a way to relax. I like how I can follow a pattern someone else created, listen to some music, and eventually end up with a beautiful piece of art to display. Below are a few of the pieces that I’ve made. Patterns are from &lt;a href=&#34;https://www.dmc.com/CA/en/patterns/free-patterns-by-craft/cross-stitch&#34;&gt;DMC&lt;/a&gt;, as well as &lt;a href=&#34;https://www.indigo.ca/en-ca/100-mini-cross-stitch-designs/9781784946272.html&#34;&gt;this book&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/MyXstitch.jpg&#34; alt=&#34;Some of the Cross Stitching I&amp;rsquo;ve done&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;However, I’ve found my hand gets tired after holding the hoop for a long period of time. Given that I’ve recently gotten access to a bunch of woodworking tools at Northforge, I decided to make a cross stitch stand from scratch, rather than buy one online.&lt;/p&gt;</description>
+      <guid>https://hathoutwillard.github.io/posts/xstitchstand/</guid>
+      <description>&lt;p&gt;For the past few years, I&amp;rsquo;ve been cross stitching as a way to relax. I like how I can follow a pattern someone else created, listen to some music, and eventually end up with a beautiful piece of art to display. Below are a few of the pieces that I’ve made. Patterns are from &lt;a href=&#34;https://www.dmc.com/CA/en/patterns/free-patterns-by-craft/cross-stitch&#34;&gt;DMC&lt;/a&gt;, as well as &lt;a href=&#34;https://www.indigo.ca/en-ca/100-mini-cross-stitch-designs/9781784946272.html&#34;&gt;this book&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://hathoutwillard.github.io/img/MyXstitch.jpg&#34; alt=&#34;Some of the Cross Stitching I&amp;rsquo;ve done&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;However, I’ve found my hand gets tired after holding the hoop for a long period of time. Given that I’ve recently gotten access to a bunch of woodworking tools at Northforge, I decided to make a cross stitch stand from scratch, rather than buy one online.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
