@@ -8,14 +8,21 @@
     <language>en</language>
     <managingEditor>hathoutwillard@gmail.com (Simon Hathout Willard)</managingEditor>
     <webMaster>hathoutwillard@gmail.com (Simon Hathout Willard)</webMaster>
-    <lastBuildDate>Sun, 05 Jan 2025 13:37:47 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 Feb 2025 21:19:45 -0800</lastBuildDate>
     <atom:link href="https://hathoutwillard.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Student Machine Shop</title>
+      <link>https://hathoutwillard.github.io/posts/studentmachineshop/</link>
+      <pubDate>Sun, 16 Feb 2025 21:19:45 -0800</pubDate><author>hathoutwillard@gmail.com (Simon Hathout Willard)</author>
+      <guid>https://hathoutwillard.github.io/posts/studentmachineshop/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://hathoutwillard.github.io/img/SMSStand/open.png&#34; alt=&#34;The phone stand, open&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The physics department at UBC has a student machine shop, which is accessible to students. They require a training course to gain access to this facility, to ensure proper and safe use of the machinery. Given my experience with hands on fabrication from working with NorthForge over the summer, I decided taking this course would be a great opportunity to get additional hands-on experience with engineering skills.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>CPEN 221: Software Development</title>
       <link>https://hathoutwillard.github.io/posts/cpen221/</link>
       <pubDate>Sun, 05 Jan 2025 13:37:47 -0800</pubDate><author>hathoutwillard@gmail.com (Simon Hathout Willard)</author>
       <guid>https://hathoutwillard.github.io/posts/cpen221/</guid>
-      <description>&lt;p&gt;One of my favourite courses this semester, and by far the one I spent the most time on, was my software development course, CPEN 221. This course builds upon prior knowledge of programming, and teaches students how to write large scale, practical code, which is testable, maintainable, and functional.&lt;/p&gt;&#xA;&lt;p&gt;Although this course is presented through the lens of Java, and students do become highly competent in that programming language, a focus is placed on concepts which are held in common by all modern programming languages, and examples from other relevant languages are used to develop a deeper understanding of course material.&lt;/p&gt;</description>
+      <description>&lt;p&gt;One of my favourite courses this semester, and by far the one I spent the most time on, was my software development course, CPEN 221. This course builds upon prior knowledge of programming, and teaches students how to write large scale, practical code, which is testable, maintainable, and functional.&lt;/p&gt;&#xA;&lt;p&gt;Although this course is presented through the lens of Java, and students do become highly competent in that programming language, a focus is placed on concepts which are held in common by all modern programming languages. Examples from other relevant languages are used to develop a deeper understanding of course material, and make sutdents more comfortable picking up languages as needed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Making Picture Frames From Scratch</title>
