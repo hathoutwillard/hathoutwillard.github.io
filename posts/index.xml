@@ -8,8 +8,15 @@
     <language>en</language>
     <managingEditor>hathoutwillard@gmail.com (Simon Hathout Willard)</managingEditor>
     <webMaster>hathoutwillard@gmail.com (Simon Hathout Willard)</webMaster>
-    <lastBuildDate>Sun, 16 Feb 2025 21:19:45 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 11 May 2025 13:37:27 -0700</lastBuildDate>
     <atom:link href="https://hathoutwillard.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Co-Op Term 1 at Dometic</title>
+      <link>https://hathoutwillard.github.io/posts/coop1/</link>
+      <pubDate>Sun, 11 May 2025 13:37:27 -0700</pubDate><author>hathoutwillard@gmail.com (Simon Hathout Willard)</author>
+      <guid>https://hathoutwillard.github.io/posts/coop1/</guid>
+      <description>&lt;p&gt;These past four months, from January to May, I&amp;rsquo;ve had the pleasure of working with Dometic, at their Vancouver facility. My role was to assist the machining and automation engineering departments in setting up a Supervisory Control and Data Acquisition (SCADA) system, to monitor the numerous CNC mills and lathes at their facility.&lt;/p&gt;&#xA;&lt;p&gt;The primary piece of software which I worked with was &lt;a href=&#34;https://inductiveautomation.com/ignition/&#34;&gt;Ignition&lt;/a&gt;, which is a tool which interfaces with the OPC drivers provided by the manufacturers, facilitates logging of data to SQL server, and allows the creation of dashboards to monitor both current plant performance, as well as historical KPIS .&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Student Machine Shop</title>
       <link>https://hathoutwillard.github.io/posts/studentmachineshop/</link>
