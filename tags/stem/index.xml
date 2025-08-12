@@ -8,8 +8,15 @@
     <language>en</language>
     <managingEditor>hathoutwillard@gmail.com (Simon Hathout Willard)</managingEditor>
     <webMaster>hathoutwillard@gmail.com (Simon Hathout Willard)</webMaster>
-    <lastBuildDate>Sun, 11 May 2025 13:37:27 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 08 Aug 2025 23:31:48 -0700</lastBuildDate>
     <atom:link href="https://hathoutwillard.github.io/tags/stem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ENPH253 -- Robot Summer</title>
+      <link>https://hathoutwillard.github.io/posts/enph253/</link>
+      <pubDate>Fri, 08 Aug 2025 23:31:48 -0700</pubDate><author>hathoutwillard@gmail.com (Simon Hathout Willard)</author>
+      <guid>https://hathoutwillard.github.io/posts/enph253/</guid>
+      <description>&lt;p&gt;One of the standout courses in the engineering physics degree at UBC is ENPH 253. Technically called “Instrument Design”, this class is more commonly referred to as “Robot Summer”. Teams of four students work for six weeks to create a fully autonomous robot, which can navigate a course. Then, they compete to see whose ‘bot is the best.&lt;/p&gt;&#xA;&lt;p&gt;The theme for this year’s competition was “Pet Rescue”. We needed to design a robot which could navigate a course, detect stuffed animals, pick them up, and bring them back to a safe area. The full competition rules can be found &lt;a href=&#34;https://projectlab.engphys.ubc.ca/enph-253-2025/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Co-Op Term 1 at Dometic</title>
       <link>https://hathoutwillard.github.io/posts/coop1/</link>
@@ -58,13 +65,6 @@
       <pubDate>Thu, 25 Jul 2024 00:37:38 -0500</pubDate><author>hathoutwillard@gmail.com (Simon Hathout Willard)</author>
       <guid>https://hathoutwillard.github.io/posts/xstitchstand/</guid>
       <description>&lt;p&gt;For the past few years, I&amp;rsquo;ve been cross stitching as a way to relax. I like how I can follow a pattern someone else created, listen to some music, and eventually end up with a beautiful piece of art to display. Below are a few of the pieces that I’ve made. Patterns are from &lt;a href=&#34;https://www.dmc.com/CA/en/patterns/free-patterns-by-craft/cross-stitch&#34;&gt;DMC&lt;/a&gt;, as well as &lt;a href=&#34;https://www.indigo.ca/en-ca/100-mini-cross-stitch-designs/9781784946272.html&#34;&gt;this book&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://hathoutwillard.github.io/img/MyXstitch.jpg&#34; alt=&#34;Some of the Cross Stitching I&amp;rsquo;ve done&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;However, I’ve found my hand gets tired after holding the hoop for a long period of time. Given that I’ve recently gotten access to a bunch of woodworking tools at Northforge, I decided to make a cross stitch stand from scratch, rather than buy one online.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My Very Own Blog</title>
-      <link>https://hathoutwillard.github.io/posts/my-very-own-blog/</link>
-      <pubDate>Sat, 13 Jul 2024 22:06:38 -0500</pubDate><author>hathoutwillard@gmail.com (Simon Hathout Willard)</author>
-      <guid>https://hathoutwillard.github.io/posts/my-very-own-blog/</guid>
-      <description>&lt;p&gt;Hello!&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been meaning to set up a blog for a while, to give me a nice, and convenient, way to chronicle all my different experiences. I originally tried making my own site from scratch using NeoCities to host it, as I’m a big fan of the old web aesthetics. Unfortunately, I quickly hit a wall with my HTML/CSS abilities, and although I learned a lot building it, getting my site to a presentable level would have taken dozens of hours that I simply don’t have.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
