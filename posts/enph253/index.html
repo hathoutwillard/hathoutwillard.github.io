@@ -12,7 +12,7 @@
  
 
 
-      <title>ENPH253 -- Robot Summer - </title>
+      <title>ENPH253: Robot Summer - </title>
 
   <meta name="description" content="Course overview
 One of the standout courses in the engineering physics degree at UBC is ENPH 253. Technically called “Instrument Design”, this class is more commonly referred to as “Robot Summer”. Teams of four students work for six weeks to create a fully autonomous robot, which can navigate a course. Then, they compete to see whose ‘bot is the best.
@@ -65,10 +65,10 @@ The theme for this year’s competition was “Pet Rescue”. We needed to desig
   "author": {
     "name" : "Simon Hathout Willard"
   },
-  "headline": "ENPH253 -- Robot Summer",
+  "headline": "ENPH253: Robot Summer",
   "description" : "Course overview One of the standout courses in the engineering physics degree at UBC is ENPH 253. Technically called “Instrument Design”, this class is more commonly referred to as “Robot Summer”. Teams of four students work for six weeks to create a fully autonomous robot, which can navigate a course. Then, they compete to see whose ‘bot is the best.\nThe theme for this year’s competition was “Pet Rescue”. We needed to design a robot which could navigate a course, detect stuffed animals, pick them up, and bring them back to a safe area. The full competition rules can be found here.\n",
   "inLanguage" : "en",
-  "wordCount":  985 ,
+  "wordCount":  1188 ,
   "datePublished" : "2025-08-18T23:31:48-07:00",
   "dateModified" : "2025-08-18T23:31:48-07:00",
   "image" : "https:\/\/hathoutwillard.github.io\/img\/raccoon.png",
@@ -88,7 +88,7 @@ The theme for this year’s competition was “Pet Rescue”. We needed to desig
 </script>
 
 
-<meta property="og:title" content="ENPH253 -- Robot Summer" />
+<meta property="og:title" content="ENPH253: Robot Summer" />
 <meta property="og:description" content="Course overview
 One of the standout courses in the engineering physics degree at UBC is ENPH 253. Technically called “Instrument Design”, this class is more commonly referred to as “Robot Summer”. Teams of four students work for six weeks to create a fully autonomous robot, which can navigate a course. Then, they compete to see whose ‘bot is the best.
 
@@ -98,7 +98,7 @@ The theme for this year’s competition was “Pet Rescue”. We needed to desig
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Simon H.W." />
 
-  <meta name="twitter:title" content="ENPH253 -- Robot Summer" />
+  <meta name="twitter:title" content="ENPH253: Robot Summer" />
   <meta name="twitter:description" content="Course overview
 One of the standout courses in the engineering physics degree at UBC is ENPH 253. Technically called “Instrument Design”, this class is more commonly referred to as “Robot Summer”. …">
   <meta name="twitter:image" content="https://hathoutwillard.github.io/img/raccoon.png" />
@@ -254,7 +254,7 @@ One of the standout courses in the engineering physics degree at UBC is ENPH 253
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="posts-heading">
               
-                <h1>ENPH253 -- Robot Summer</h1>
+                <h1>ENPH253: Robot Summer</h1>
               
               
                 <hr class="small">
@@ -297,6 +297,8 @@ One of the standout courses in the engineering physics degree at UBC is ENPH 253
 <p>To reduce the number of parts required, and save vertical space on the robot, we opted to directly drive the lead screw from a geared 300 RPM motor. This required mounting the motor through the lazy susan, into the base of the chassis. This also meant that we were unable to encode the motor to determine the height of our claw. We determined there were only three heights the claw would need to be at during the competition. This meant that we could place a button at each height, using a cam mounted on the lead screw platform to press them.</p>
 <p><img src="/img/ENPH253/States.jpg" alt="Flow chart of robot states"></p>
 <p>To keep our code simple, we opted to use a state machine to handle the robot, as it progresses through the course. When a dedicated button on the robot is pressed, it first homes, and then on a second click begins running. It then loops through the same 8 states, picking up one pet for each iteration. The behaviour in each state is dependant on the number of pets picked up. For example, for the first two pets, the robot will move its claw to the low height, while for the one on the pillar, it will instead go to the top height.</p>
+<p>I wrote all of the software for the robot in the VSCode extension PlatformIO, using the C++ programming language. To structure the program, I followed an object-oriented approach. I found <a href="https://www.learncpp.com/">learnCPP</a> to be an incredibly helpful resource for this. Although it took longer to initially program the objects, it made the final integration of all elements a lot easier.</p>
+<p>I encountered two interesting challenges while writing the software for the robot. The first was that our <a href="https://en.wikipedia.org/wiki/H-bridge">H-bridge</a> motor drivers were vulnerable to shoot-though, which is when both sets of gates are open, leading to a temporary short of the circuit. There was a slight hang time after we stopped supplying voltage to the gate of the MOSFET, before it truly shut off. to combat this, we had to add a slight, nonblocking delay whenever  we changed motor direction. The second challenge was that the LiDAR sensors took 40 milliseconds to read from. Although this might seem like a short time, the PID control loop for the drive motors needed to be called every 5 milliseconds. To solve this, we used the second core on the ESP32, dedicating it to polling the LiDARs. Communication between the two cores was made safe using C++&rsquo;s std::atomic.</p>
 <h1 id="competition">Competition</h1>
 <p>Below, you can see a closeup video of our robot collecting the first three pets, recorded as we were still fine-tuning the software</p>
 
@@ -332,7 +334,7 @@ One of the standout courses in the engineering physics degree at UBC is ENPH 253
     <ul class="share">
       
       <li>
-        <a href="//twitter.com/share?url=https%3a%2f%2fhathoutwillard.github.io%2fposts%2fenph253%2f&amp;text=ENPH253%20--%20Robot%20Summer&amp;via=" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fhathoutwillard.github.io%2fposts%2fenph253%2f&amp;text=ENPH253%3a%20Robot%20Summer&amp;via=" target="_blank" title="Share on Twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -346,28 +348,28 @@ One of the standout courses in the engineering physics degree at UBC is ENPH 253
   
       
       <li>
-        <a href="//reddit.com/submit?url=https%3a%2f%2fhathoutwillard.github.io%2fposts%2fenph253%2f&amp;title=ENPH253%20--%20Robot%20Summer" target="_blank" title="Share on Reddit">
+        <a href="//reddit.com/submit?url=https%3a%2f%2fhathoutwillard.github.io%2fposts%2fenph253%2f&amp;title=ENPH253%3a%20Robot%20Summer" target="_blank" title="Share on Reddit">
           <i class="fab fa-reddit"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fhathoutwillard.github.io%2fposts%2fenph253%2f&amp;title=ENPH253%20--%20Robot%20Summer" target="_blank" title="Share on LinkedIn">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fhathoutwillard.github.io%2fposts%2fenph253%2f&amp;title=ENPH253%3a%20Robot%20Summer" target="_blank" title="Share on LinkedIn">
           <i class="fab fa-linkedin"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fhathoutwillard.github.io%2fposts%2fenph253%2f&amp;title=ENPH253%20--%20Robot%20Summer" target="_blank" title="Share on StumbleUpon">
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fhathoutwillard.github.io%2fposts%2fenph253%2f&amp;title=ENPH253%3a%20Robot%20Summer" target="_blank" title="Share on StumbleUpon">
           <i class="fab fa-stumbleupon"></i>
         </a>
       </li>
   
       
       <li>
-        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fhathoutwillard.github.io%2fposts%2fenph253%2f&amp;description=ENPH253%20--%20Robot%20Summer" target="_blank" title="Share on Pinterest">
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fhathoutwillard.github.io%2fposts%2fenph253%2f&amp;description=ENPH253%3a%20Robot%20Summer" target="_blank" title="Share on Pinterest">
           <i class="fab fa-pinterest"></i>
         </a>
       </li>
